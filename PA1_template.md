@@ -61,9 +61,11 @@ sum(is.na(activity))
 ```
 
 2. Devise a strategy for filling in all of the missing values in the
-   dataset. 
+   dataset. The strategy does not need to be sophisticated. For
+   example, you could use the mean/median for that day, or the mean
+   for that 5-minute interval, etc.
 
-We will use the means for the 5-minute intervals as fillers for missing
+ will use the means for the 5-minute intervals as fillers for missing
 values.
 
 3. Create a new dataset that is equal to the original dataset but with
